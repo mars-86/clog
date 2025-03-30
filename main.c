@@ -1,7 +1,10 @@
+#include "clog.h"
 #include <stdio.h>
-#include "kadmos.h"
 
-int main(void)
-{
-    return 0;
+int main(void) {
+
+  clog_info("Starting up");
+  clog_info("Module started");
+
+  return 0;
 }
