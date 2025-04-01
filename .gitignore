@@ -1,3 +1,15 @@
+# Autoconf
+.libs
+.deps
+autom4te.cache
+config.h
+config.log
+config.status
+configure~
+libtool
+Makefile
+stamp-h1
+
 # Prerequisites
 *.d
 
@@ -31,6 +43,12 @@
 *.out
 *.app
 
+# Testing files cov
+*.gcda
+*.gcno
+*.gcov
+
+
 # Visual Studio Folders
 .vs/
 VTGraph/Debug/
@@ -42,6 +60,12 @@ Release
 # Codeblocks Folders
 bin/
 obj/
+
+# Custom Build Folders
+debug
+release
+coverage
+analisys
 
 # Codeblocks project
 *.cbp
