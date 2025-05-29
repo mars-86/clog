@@ -1,0 +1,3 @@
+Place custom config here and compile with -DCLOG_CUSTOM_CONFIG (you can uncomment the line add_project_arguments('-DCLOG_CUSTOM_CONFIG', language: 'c') in meson.build placed in root).
+If you do not want to create a config file simply define macro values after CLOG_CUSTOM_CONFIG define (i.e. add_project_arguments('-DCLOG_LEVEL=3', language: 'c') and so forth...).
+NOTE: you need to define all the macros present in default config.
