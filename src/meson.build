@@ -7,6 +7,6 @@ libclog_sources = [
 libclog = static_library(
 	'clog',
 	libclog_sources,
-	include_directories: [ rootInclude, ],
+	include_directories: [ include_directories('.') ],
 	c_args: [],
 )
