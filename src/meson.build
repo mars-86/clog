@@ -1,4 +1,4 @@
-add_project_arguments('-DCLOG_CUSTOM_CONFIG', language: 'c')
+# add_project_arguments('-DCLOG_CUSTOM_CONFIG', language: 'c')
 
 libclog_sources = [
 	'clog.c',
