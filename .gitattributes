@@ -10,3 +10,4 @@ config.status linguist-detectable=false
 libtool linguist-detectable=false
 Makefile  linguist-detectable=false
 Makefile.in linguist-detectable=false
+meson.build linguist-detectable=false
